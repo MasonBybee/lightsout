@@ -1,0 +1,25 @@
+.Heading {
+  top: 20px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0;
+  width: 700px;
+}
+
+.Heading-title {
+  margin: 0;
+}
+
+.Heading-name {
+  margin: 0;
+}
+
+.Heading-how-to-play-h5 {
+  margin-bottom: 0;
+}
+
+.Heading-how-to-play-p {
+  margin-top: 0;
+}

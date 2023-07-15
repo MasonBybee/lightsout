@@ -1,0 +1,38 @@
+.Board {
+  position: absolute;
+  top: 20%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: 558px;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid white;
+}
+
+.Board-youwin {
+  font-size: 4em;
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translate(-50%);
+  top: 40%;
+}
+
+.Board-winner {
+  position: absolute;
+  top: 20%;
+  width: 558px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 500px;
+}
+
+.Board-moves {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 550px;
+}
